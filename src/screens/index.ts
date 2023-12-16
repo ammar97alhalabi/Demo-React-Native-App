@@ -1,2 +1,2 @@
-export {default as InitialScreen} from './initialScreen'
-export {default as InitialScreenCopy} from './initialScreen copy'
+export {default as InitialScreen} from './InitialScreen/InitialScreen'
+export {default as InitialScreenCopy} from './initialScreen copy/Index'

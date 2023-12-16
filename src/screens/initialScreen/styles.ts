@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
-import { Colors } from "../../constants/color";
-import { Dimensions } from "../../constants/dimension";
+import { Colors } from "../../utils/constants/AppColors";
+import { Dimensions } from "../../utils/constants/AppDimension";
 
 
 const createStyle = () =>
@@ -9,18 +9,19 @@ const createStyle = () =>
         body: {
             flex: 1,
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            padding:Dimensions[16]
         },
         text: {
             fontSize: RFValue(Dimensions[24]),
             fontWeight: '300',
-            color: Colors.BLACK
         },
         background: {
             height: '100%',
             width: '100%',
+            marginHorizontal:Dimensions[16],
             alignItems: 'center',
-            objectFit: 'cover'
+            objectFit: 'fill'
         },
         logo: {
             width: RFValue(100),

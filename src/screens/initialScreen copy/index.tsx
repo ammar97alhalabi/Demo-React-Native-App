@@ -1,6 +1,6 @@
 import React, { FC, useMemo } from "react";
 import { Text, View } from "react-native";
-import createStyle from "./styles";
+import createStyle from "./Styles";
 import { NavigationProp, ParamListBase } from "@react-navigation/native";
 
 interface IProps{
